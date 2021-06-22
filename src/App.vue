@@ -24,6 +24,7 @@ export default {
     Axios.get("/anotherTest").then((res) => {
       this.otherApiResult = res.data;
     });
+    Axios.post("/receive", { data: "aaaaaaaaaaaaaaaa" });
   },
 };
 </script>
